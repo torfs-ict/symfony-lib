@@ -1,0 +1,17 @@
+{
+    "name": "torfs-ict/symfony-lib",
+    "description": "Reusable libraries for Symfony",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristof Torfs",
+            "email": "kristof@torfs.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TorfsICT\\": "src/"
+        }
+    }
+}
