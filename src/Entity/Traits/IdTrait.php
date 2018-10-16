@@ -4,7 +4,7 @@ namespace TorfsICT\Entity\Traits;
 
 use Doctrine\ORM\Mapping as ORM;
 
-class IdTrait
+trait IdTrait
 {
     /**
      * @var integer
