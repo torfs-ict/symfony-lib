@@ -15,9 +15,9 @@ abstract class AbstractDataTransferObject implements DataTransferObjectInterface
     /**
      * @param EntityInterface|DataTransferObjectInterface $src
      * @param EntityInterface|DataTransferObjectInterface $dst
-     * @return $this
+     * @return EntityInterface|DataTransferObjectInterface The destination object
      */
-    private function sync($src, $dst): self
+    private function sync($src, $dst)
     {
         $accessor = PropertyAccess::createPropertyAccessor();
         $class = new ReflectionClass($this);
