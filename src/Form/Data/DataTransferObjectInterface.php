@@ -18,7 +18,7 @@ interface DataTransferObjectInterface
      * Exports the values of our Data Transfer Object to an entity object.
      *
      * @param EntityInterface $entity
-     * @return $this
+     * @return EntityInterface The passed entity
      */
-    public function toEntity(EntityInterface $entity): self;
+    public function toEntity(EntityInterface $entity): EntityInterface;
 }
